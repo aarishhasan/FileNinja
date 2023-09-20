@@ -1,20 +1,21 @@
-# FileCompression-Project-DS
-What is this project about?
+The main goal of this project is to create a software application that employs Huffman Coding to compress text files. This application takes a text file as input and reduces its size through compression, allowing users to save the compressed version. Additionally, it offers the functionality to decompress the file back to its original form. The application also includes an extra feature: it can compress a sequence of alphabetic characters into a binary sequence with a significantly smaller size than the original. This compressed binary sequence can then be transmitted over a network or saved in a file for future decompression.
 
-This project is about Building an application for Text File Compression using Huffman Coding. Given a a text file as an input, 
-this app will compress the file and then save the file with reduced size. You can also decompress the file using this app into 
-its original form. This app also has some additional features such as: Given a string of alphabetic characters, you can compress 
-the size of its bit sequence to obtain a binary sequence that has size significantly lesser than the original, this new sequence 
-then can be sent through a network or saved in file so that it can be decompressed whenever required.
+How to use it, and how does it operate?
 
-How it will run, how does it work?
+To utilize this application, follow these steps:
 
-In order to run the application, first step is to download all the project files in this branch and then put them in an appropriate folder.
-We have provided an executable .jar as well as .exe file inside the folder named "Executable" in which you will find files named "EncodorGUI.jar" and "Encoder.exe".
-You can click on any one of these to execute the application. (There is also an alternative way to execute the project, you can open the project in any IDE and execute 
-the main method inside the class "EncoderGUI").
-Upon opening the application you will be given an option to browse a file and select it. After you have selected your file, choose the location where you want to 
-save the compressed file. After you have done all these steps you can hit the "Compress" Button to compress your file. For further detailed instructions on how the 
-project works, you can refer to the following video:
+Start by downloading all the project files from this branch and placing them in an appropriate folder.
 
-Link: https://youtu.be/S0Wua5WxKZI
+Inside the "Executable" folder, you will find two files: "EncoderGUI.jar" and "Encoder.exe," which are executable versions of the application. You can choose either of these files to run the application.
+
+Alternatively, you can run the project within an Integrated Development Environment (IDE) by executing the main method inside the "EncoderGUI" class.
+
+Once the application is launched, you will have the option to browse for a file and select it as the input.
+
+After selecting your file, specify the location where you want to save the compressed file.
+
+Once all these settings are configured, click the "Compress" button to initiate the compression process.
+
+
+
+
